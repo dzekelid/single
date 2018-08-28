@@ -7,11 +7,69 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28888-www-
 x-kinRank: "7"
 x-alexaRank: "385559"
 tags: Single
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/single/master/_listings/dezrez/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: Dezrez.Rezi.Client.Api - Cancel a single or multiple tasks from a to-do bucket
+  x-api-slug: apitodocanceltasks-put
+  description: Cancel a single or multiple tasks from a to-do bucket.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28888-www-dezrez-com.jpg
+  humanURL: https://www.dezrez.com
+  baseURL: https://api.dezrez.com//
+  tags: SaaS, Technology, Real Estate, Properties, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/single/master/_listings/dezrez/apitodocanceltasks-put-openapi.md
+- name: Dezrez.Rezi.Client.Api - Generates a correspondence to a single applicant,
+    sending them user selected property roles
+  x-api-slug: apidocumentgenerationselectedpropertiesmatch-post
+  description: Generates a correspondence to a single applicant, sending them user
+    selected property roles.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28888-www-dezrez-com.jpg
+  humanURL: https://www.dezrez.com
+  baseURL: https://api.dezrez.com//
+  tags: SaaS, Technology, Real Estate, Properties, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/single/master/_listings/dezrez/apidocumentgenerationselectedpropertiesmatch-post-openapi.md
+- name: Dezrez.Rezi.Client.Api - Generates a correspondence to a single letting applicant,
+    sending them user selected property roles
+  x-api-slug: apidocumentgenerationselectedlettingspropertiesmatch-post
+  description: Generates a correspondence to a single letting applicant, sending them
+    user selected property roles.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28888-www-dezrez-com.jpg
+  humanURL: https://www.dezrez.com
+  baseURL: https://api.dezrez.com//
+  tags: SaaS, Technology, Real Estate, Properties, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/single/master/_listings/dezrez/apidocumentgenerationselectedlettingspropertiesmatch-post-openapi.md
+- name: Dezrez.Rezi.Client.Api - Generates a correspondence to a single group, sending
+    them a single report for multiple properties
+  x-api-slug: apidocumentgenerationvendorreport-post
+  description: Generates a correspondence to a single group, sending them a single
+    report for multiple properties.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28888-www-dezrez-com.jpg
+  humanURL: https://www.dezrez.com
+  baseURL: https://api.dezrez.com//
+  tags: SaaS, Technology, Real Estate, Properties, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/single/master/_listings/dezrez/apidocumentgenerationvendorreport-post-openapi.md
+- name: Dezrez.Rezi.Client.Api - Get a single DocumentPlaceholder which is the 'slot'
+    the particular document of type+source exists within.
+  x-api-slug: apiroleiddocumentfromplaceholder-get
+  description: Get a single documentplaceholder which is the 'slot' the particular
+    document of type+source exists within..
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28888-www-dezrez-com.jpg
+  humanURL: https://www.dezrez.com
+  baseURL: https://api.dezrez.com//
+  tags: SaaS, Technology, Real Estate, Properties, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/single/master/_listings/dezrez/apiroleiddocumentfromplaceholder-get-openapi.md
 x-common:
 - type: x-github
   url: https://github.com/dezrez

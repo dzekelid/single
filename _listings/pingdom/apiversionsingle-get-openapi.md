@@ -8,14 +8,14 @@ info:
     target. Please note that this method is meant to be used sparingly, not to set
     up your own monitoring solution.
   version: 1.0.0
-host: api.pingdom.com
-basePath: /
 schemes:
 - http
 produces:
 - application/json
 consumes:
 - application/json
+host: api.pingdom.com
+basePath: /
 paths:
   ? |2-
 

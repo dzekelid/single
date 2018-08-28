@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: Coord
 x-complete: 1
@@ -14,4 +13,49 @@ produces:
 - application/json
 consumes:
 - application/json
----
+paths:
+  /bycurb/{id}/all_rules:
+    get:
+      summary: Find the rules on single curb.
+      description: Find the rules on single curb..
+      operationId: get_by_curb_id
+      x-api-path-slug: bycurbidall-rules-get
+      parameters:
+      - in: query
+        name: access_key
+        description: The API access key for the request
+      - in: query
+        name: No Name
+      responses:
+        200:
+          description: OK
+      tags:
+      - Find
+      - Rules
+      - "On"
+      - Single
+      - Curb
+  /bycurb/{id}/time_rules:
+    get:
+      summary: Find the rules on a single curb at a certain time.
+      description: Find the rules on a single curb at a certain time..
+      operationId: get_at_time_by_curb_id
+      x-api-path-slug: bycurbidtime-rules-get
+      parameters:
+      - in: query
+        name: access_key
+        description: The API access key for the request
+      - in: query
+        name: No Name
+      responses:
+        200:
+          description: OK
+      tags:
+      - Find
+      - Rules
+      - "On"
+      - Single
+      - Curb
+      - At
+      - Certain
+      - Time
